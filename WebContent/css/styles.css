@@ -1,0 +1,156 @@
+html, body {
+	height: 100%;
+}
+
+html {
+	background-image: url(../images/food.png);
+	display: table;
+	margin: auto;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	width: 1000px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+header {
+	background-image: url(../images/wild_oliva.png);
+	color: white;
+	text-align: center;
+	padding: 5px;
+	text-shadow: 1px 1px #FF0000;
+}
+
+nav {
+	background-image: url(../images/squared_metal.png);
+	height: 650px;
+	width: 180px;
+	float: left;
+	padding: 10px;
+	text-align: right;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+	background-image: url(../images/wild_oliva.png);
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	text-shadow: 1px 1px #FF0000;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px #FF0000;
+}
+
+section {
+	background-image: url(../images/gray_jean.png);
+	float: left;
+	width: 780px;
+	height: 650px;
+	padding: 10px;
+}
+
+aside {
+	float: left;
+	width: 390px;
+	height: 80px;
+	text-align: left;
+}
+
+.error {
+	color: #FF0000;
+}
+
+.wide {
+	width: 980px;
+}
+
+.right {
+	text-align: right;
+}
+
+form {
+	display: inline;
+}
+
+input[type="text"], input[type="password"] {
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	height: 24px;
+	width: 200px;
+	font-size: 14px;
+	background: #ffffff !important;
+}
+
+input[type=submit] {
+	font-size: 14px;
+	background: #ccc;
+	border: 0 none;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input[type=submit]:hover {
+	background: #FAC564;
+}
+
+nav input[type=submit] {
+	background: none;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+nav input[type=submit]:hover {
+	background: none;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a {
+	background: none;
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	background: none;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+tr {
+	border-bottom: 1px solid #FAC564;
+}
+
+th {
+	height: 50px;
+}
+
+td {
+	text-align: center;
+	padding: 15px;
+}
+
+td:hover{
+	background: #ccc;
+}

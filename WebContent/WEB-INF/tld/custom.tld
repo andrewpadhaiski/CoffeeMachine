@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1">
+	<tlib-version>1.0</tlib-version>
+	<short-name>ctg</short-name>
+	<uri>customtags</uri>
+	<tag>
+		<name>error</name>
+		<tag-class>by.epam.coffeemashine.view.ErrorTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+</taglib> 
